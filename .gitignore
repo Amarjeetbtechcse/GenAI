@@ -1,0 +1,46 @@
+# Dependency folders
+node_modules/
+bower_components/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Test coverage
+coverage/
+
+# Optional: local database or app data
+*.sqlite
+*.db
+*.tgz
+
+# Optional: TypeScript
+*.tsbuildinfo
+
+# Optional: Next.js or other frameworks
+.next/
+.vercel/
+.cache/
