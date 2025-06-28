@@ -4,9 +4,13 @@
   "description": "",
   "license": "ISC",
   "author": "amarjeet",
-  "type": "commonjs",
+  "type": "module",
   "main": "LLM.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.7.0",
+    "readline-sync": "^1.4.10"
   }
 }
